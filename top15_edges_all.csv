@@ -1,17 +1,32 @@
-﻿,NOTEARS,,,,GES,,,,GOLEM,,
-index,출발 노드,가중치,도착 노드,,출발 노드,가중치,도착 노드,,출발 노드,가중치,도착 노드
-1,asset_liabilities,-0.815552168,debt_ratio,,debt_ratio,-1.051066602,asset_liabilities,,capitalization_ratio,0.750135601,debt_ratio2
-2,longtermdebt_invcap,0.803156733,capitalization_ratio,,capitalization_ratio,0.982010209,debt_ratio2,,roe,0.469313353,roa
-3,leverage_ratio,0.625282846,debt_ratio,,leverage_ratio,0.707019729,debt_ratio,,debt_ratio2,0.460893452,totaldebt_invcap
-4,capitalization_ratio,0.576713136,debt_ratio2,,totaldebt_invcap,0.59948669,debt_ratio2,,totaldebt_invcap,0.407395869,leverage_ratio
-5,totaldebt_invcap,0.454002326,debt_ratio2,,rect_turn,0.439656244,asset_turnover,,asset_liabilities,0.382376939,rect_turn
-6,asset_turnover,0.426437462,roa,,asset_turnover,0.408473917,roa,,asset_turnover,0.364549249,roa
-7,roe,0.395193416,roa,,roe,0.408352329,roa,,longtermdebt_invcap,0.341171682,debt_ratio2
-8,rect_turn,0.361716126,asset_liabilities,,longtermdebt_invcap,-0.360978174,debt_ratio2,,debt_ratio,-0.320222169,rect_turn
-9,totaldebt_invcap,0.359893316,leverage_ratio,,debt_ratio2,0.348331464,debt_ebitda,,capitalization_ratio,-0.305888116,totaldebt_invcap
-10,,,,,rect_turn,-0.33246915,debt_ratio,,asset_turnover,0.303432107,rect_turn
-11,,,,,debt_ratio,-0.326955995,debt_ratio2,,roa,0.302288473,rect_turn
-12,,,,,asset_liabilities,0.261809782,cash_debt,,leverage_ratio,-0.287468612,asset_liabilities
-13,,,,,leverage_ratio,0.247739273,asset_liabilities,,debt_ratio,0.285747141,totaldebt_invcap
-14,,,,,debt_ratio,0.187052507,cash_debt,,longtermdebt_invcap,0.267747343,capitalization_ratio
-15,,,,,rect_turn,0.184466687,roa,,debt_ebitda,0.265171707,debt_ratio2
+﻿,NOTEARS,,,,GES,,,,GOLEM,,,,PC,,
+index,출발 노드,가중치,도착 노드,,출발 노드,가중치,도착 노드,,출발 노드,가중치,도착 노드,,출발 노드,상관계수,도착 노드
+1,asset_liabilities,-0.815552168,debt_ratio,,debt_ratio,-1.051066602,asset_liabilities,,capitalization_ratio,0.750135601,debt_ratio2,,asset_liabilities,-0.9167744,debt_ratio
+2,longtermdebt_invcap,0.803156733,capitalization_ratio,,capitalization_ratio,0.982010209,debt_ratio2,,roe,0.469313353,roa,,longtermdebt_invcap,0.904110854,capitalization_ratio
+3,leverage_ratio,0.625282846,debt_ratio,,leverage_ratio,0.707019729,debt_ratio,,debt_ratio2,0.460893452,totaldebt_invcap,,debt_ratio,0.728985422,leverage_ratio
+4,capitalization_ratio,0.576713136,debt_ratio2,,totaldebt_invcap,0.59948669,debt_ratio2,,totaldebt_invcap,0.407395869,leverage_ratio,,debt_ratio2,0.67313023,capitalization_ratio
+5,totaldebt_invcap,0.454002326,debt_ratio2,,rect_turn,0.439656244,asset_turnover,,asset_liabilities,0.382376939,rect_turn,,debt_ratio2,0.592401434,longtermdebt_invcap
+6,asset_turnover,0.426437462,roa,,asset_turnover,0.408473917,roa,,asset_turnover,0.364549249,roa,,debt_ratio2,0.52986646,totaldebt_invcap
+7,roe,0.395193416,roa,,roe,0.408352329,roa,,longtermdebt_invcap,0.341171682,debt_ratio2,,leverage_ratio,-0.527305138,asset_liabilities
+8,rect_turn,0.361716126,asset_liabilities,,longtermdebt_invcap,-0.360978174,debt_ratio2,,debt_ratio,-0.320222169,rect_turn,,totaldebt_invcap,0.523006572,leverage_ratio
+9,totaldebt_invcap,0.359893316,leverage_ratio,,debt_ratio2,0.348331464,debt_ebitda,,capitalization_ratio,-0.305888116,totaldebt_invcap,,asset_liabilities,0.509858291,rect_turn
+10,,,,,rect_turn,-0.33246915,debt_ratio,,asset_turnover,0.303432107,rect_turn,,asset_turnover,0.501071974,roa
+11,,,,,debt_ratio,-0.326955995,debt_ratio2,,roa,0.302288473,rect_turn,,roa,0.482550228,roe
+12,,,,,asset_liabilities,0.261809782,cash_debt,,leverage_ratio,-0.287468612,asset_liabilities,,asset_turnover,0.438206997,rect_turn
+13,,,,,leverage_ratio,0.247739273,asset_liabilities,,debt_ratio,0.285747141,totaldebt_invcap,,debt_ratio,-0.382826678,rect_turn
+14,,,,,debt_ratio,0.187052507,cash_debt,,longtermdebt_invcap,0.267747343,capitalization_ratio,,roa,0.376604267,rect_turn
+15,,,,,rect_turn,0.184466687,roa,,debt_ebitda,0.265171707,debt_ratio2,,debt_ratio2,0.326642442,debt_ebitda
+,,,,,,,,,,,,,,,
+동일 edge,,,,,,,,,,,,,,,
+index,출발 노드,가중치,도착 노드,알고리즘,가중치 비교,,,,,,,,,,
+1,,,,,,,,,,,,,,,
+2,,,,,,,,,,,,,,,
+3,,,,,,,,,,,,,,,
+4,,,,,,,,,,,,,,,
+5,,,,,,,,,,,,,,,
+6,,,,,,,,,,,,,,,
+7,,,,,,,,,,,,,,,
+8,,,,,,,,,,,,,,,
+9,,,,,,,,,,,,,,,
+10,,,,,,,,,,,,,,,
+11,,,,,,,,,,,,,,,
+12,,,,,,,,,,,,,,,
