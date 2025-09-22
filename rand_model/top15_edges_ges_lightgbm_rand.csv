@@ -1,0 +1,16 @@
+﻿출발 노드,가중치,도착 노드
+debt_ratio2,1.2225413386740303,totaldebt_invcap
+debt_ebitda,-0.9588826008289989,capitalization_ratio
+cash_debt,0.8784503013072725,totaldebt_invcap
+leverage_ratio,-0.8592924628832382,asset_liabilities
+asset_turnover,-0.6809295444039414,rect_turn
+totaldebt_invcap,0.5323091855533487,roa
+debt_ratio2,0.43082100300788273,rect_turn
+roa,-0.4283278221631072,cash_debt
+capitalization_ratio,0.4127326115959884,longtermdebt_invcap
+asset_turnover,0.36875078408249884,asset_liabilities
+roe,0.36544406436407834,totaldebt_invcap
+asset_liabilities,-0.3521335504882296,rect_turn
+asset_turnover,-0.18486236354526056,totaldebt_invcap
+asset_turnover,-0.15452948206880215,debt_ratio2
+capitalization_ratio,-0.049925910986252896,roe

@@ -1,0 +1,17 @@
+﻿,GES,LightGBM,,,GES,XGBoost,,,NOTEARS,FFMLP,
+,출발 노드,가중치,도착 노드,,출발 노드,가중치,도착 노드,,출발 노드,가중치,도착 노드
+1,debt_ratio2,1.222541339,totaldebt_invcap,,leverage_ratio,2.128469732,longtermdebt_invcap,,leverage_ratio,2.128469732,longtermdebt_invcap
+2,debt_ebitda,-0.958882601,capitalization_ratio,,leverage_ratio,1.767929914,asset_turnover,,leverage_ratio,1.767929914,asset_turnover
+3,cash_debt,0.878450301,totaldebt_invcap,,longtermdebt_invcap,-1.277937574,rect_turn,,longtermdebt_invcap,-1.277937574,rect_turn
+4,leverage_ratio,-0.859292463,asset_liabilities,,roa,-1.225605764,rect_turn,,roa,-1.225605764,rect_turn
+5,asset_turnover,-0.680929544,rect_turn,,leverage_ratio,-1.184943766,debt_ratio2,,leverage_ratio,-1.184943766,debt_ratio2
+6,totaldebt_invcap,0.532309186,roa,,roe,0.982739511,asset_turnover,,roe,0.982739511,asset_turnover
+7,debt_ratio2,0.430821003,rect_turn,,roe,-0.965116762,roa,,roe,-0.965116762,roa
+8,roa,-0.428327822,cash_debt,,longtermdebt_invcap,0.931573013,totaldebt_invcap,,longtermdebt_invcap,0.931573013,totaldebt_invcap
+9,capitalization_ratio,0.412732612,longtermdebt_invcap,,roa,-0.902927178,totaldebt_invcap,,roa,-0.902927178,totaldebt_invcap
+10,asset_turnover,0.368750784,asset_liabilities,,roa,0.838489204,longtermdebt_invcap,,roa,0.838489204,longtermdebt_invcap
+11,roe,0.365444064,totaldebt_invcap,,asset_turnover,-0.821386679,longtermdebt_invcap,,asset_turnover,-0.821386679,longtermdebt_invcap
+12,asset_liabilities,-0.35213355,rect_turn,,asset_turnover,-0.725226065,roa,,asset_turnover,-0.725226065,roa
+13,asset_turnover,-0.184862364,totaldebt_invcap,,leverage_ratio,-0.654787695,debt_ebitda,,leverage_ratio,-0.654787695,debt_ebitda
+14,asset_turnover,-0.154529482,debt_ratio2,,roe,-0.499295599,debt_ratio,,roe,-0.499295599,debt_ratio
+15,capitalization_ratio,-0.049925911,roe,,asset_turnover,-0.45498348,rect_turn,,asset_turnover,-0.45498348,rect_turn
