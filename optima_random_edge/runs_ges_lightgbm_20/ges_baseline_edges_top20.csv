@@ -1,0 +1,22 @@
+﻿O,,,,Rand W,,,,Rand edge W,,
+출발노드,가중치,도착노드,,출발노드,가중치,도착노드,,출발노드,가중치,도착노드
+debt_ratio,-1.051066602,asset_liabilities,,debt_ratio,0.904282518,asset_liabilities,,cash_debt,-2.65003149,longtermdebt_invcap
+capitalization_ratio,0.982010209,debt_ratio2,,capitalization_ratio,-0.355905868,debt_ratio2,,totaldebt_invcap,-1.69861254,asset_liabilities
+leverage_ratio,0.707019729,debt_ratio,,leverage_ratio,1.771342314,debt_ratio,,asset_turnover,1.590830958,longtermdebt_invcap
+totaldebt_invcap,0.59948669,debt_ratio2,,totaldebt_invcap,0.076098766,debt_ratio2,,debt_ebitda,1.460272401,asset_liabilities
+rect_turn,0.439656244,asset_turnover,,rect_turn,0.910164352,asset_turnover,,capitalization_ratio,1.44936979,longtermdebt_invcap
+asset_turnover,0.408473917,roa,,asset_turnover,0.813622463,roa,,totaldebt_invcap,1.311097101,debt_ebitda
+roe,0.408352329,roa,,roe,-0.251248213,roa,,leverage_ratio,1.182449695,longtermdebt_invcap
+longtermdebt_invcap,-0.360978174,debt_ratio2,,longtermdebt_invcap,0.556021275,debt_ratio2,,debt_ratio,-1.13568522,totaldebt_invcap
+debt_ratio2,0.348331464,debt_ebitda,,debt_ratio2,-0.34416893,debt_ebitda,,rect_turn,1.127249442,debt_ratio2
+rect_turn,-0.33246915,debt_ratio,,rect_turn,-0.334386304,debt_ratio,,leverage_ratio,1.091985646,capitalization_ratio
+debt_ratio,-0.326955995,debt_ratio2,,debt_ratio,0.236903912,debt_ratio2,,roa,-1.053445808,rect_turn
+asset_liabilities,0.261809782,cash_debt,,asset_liabilities,-0.057578818,cash_debt,,roe,0.909137241,capitalization_ratio
+leverage_ratio,0.247739273,asset_liabilities,,leverage_ratio,-0.07319114,asset_liabilities,,capitalization_ratio,-0.866765717,debt_ratio2
+debt_ratio,0.187052507,cash_debt,,debt_ratio,-1.367866365,cash_debt,,leverage_ratio,-0.83709203,roe
+rect_turn,0.184466687,roa,,rect_turn,1.218345941,roa,,leverage_ratio,0.820436978,debt_ebitda
+roa,-0.173057603,debt_ebitda,,roa,1.027338746,debt_ebitda,,longtermdebt_invcap,0.751995908,totaldebt_invcap
+roa,0.170014586,debt_ratio2,,roa,1.717271681,debt_ratio2,,roe,0.713338229,debt_ratio2
+leverage_ratio,-0.167041225,roa,,leverage_ratio,0.122596852,roa,,cash_debt,-0.674804322,rect_turn
+asset_liabilities,-0.163488887,debt_ratio2,,asset_liabilities,0.690858293,debt_ratio2,,debt_ebitda,0.668030543,rect_turn
+leverage_ratio,0.144183356,asset_turnover,,leverage_ratio,0.707804503,asset_turnover,,debt_ratio2,0.6220768,asset_turnover
