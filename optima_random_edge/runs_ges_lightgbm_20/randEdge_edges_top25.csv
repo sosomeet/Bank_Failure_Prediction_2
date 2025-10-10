@@ -19,3 +19,8 @@ roe,0.7133382291481677,debt_ratio2
 cash_debt,-0.6748043217126501,rect_turn
 debt_ebitda,0.6680305425158953,rect_turn
 debt_ratio2,0.6220767999350839,asset_turnover
+rect_turn,-0.6148313393512009,longtermdebt_invcap
+totaldebt_invcap,-0.5761217083486461,capitalization_ratio
+debt_ratio2,0.5610300715170513,cash_debt
+totaldebt_invcap,-0.5372546630481827,rect_turn
+asset_turnover,-0.4573135692253448,asset_liabilities

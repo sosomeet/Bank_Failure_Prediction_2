@@ -19,3 +19,8 @@ roa,0.17001458602140873,debt_ratio2
 leverage_ratio,-0.16704122529670598,roa
 asset_liabilities,-0.1634888865510577,debt_ratio2
 leverage_ratio,0.14418335641076938,asset_turnover
+roe,0.13943480681732878,asset_turnover
+totaldebt_invcap,0.1312520388586944,asset_turnover
+debt_ratio2,-0.1262970077003717,cash_debt
+rect_turn,0.12171732181027996,asset_liabilities
+roe,0.11274438875175946,debt_ratio
