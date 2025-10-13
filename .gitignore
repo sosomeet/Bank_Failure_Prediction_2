@@ -1,5 +1,5 @@
 # SHAP 분석 결과물 제외
 *.png
 # *.csv
-it*.csv
+iters/
 synthetic/
