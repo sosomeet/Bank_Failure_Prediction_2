@@ -1,0 +1,4 @@
+# 회귀식(표준화, 절편 없음)
+# scenario_var = roe
+
+roa = +0.4190·roe +0.4406·asset_turnover + ε_roa

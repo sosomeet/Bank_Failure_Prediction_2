@@ -1,0 +1,4 @@
+# 회귀식(표준화, 절편 없음)
+# scenario_var = rect_turn
+
+asset_liabilities = +0.5099·rect_turn + ε_asset_liabilities
