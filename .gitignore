@@ -3,3 +3,4 @@
 # *.csv
 iters/
 synthetic/
+training_data.csv
