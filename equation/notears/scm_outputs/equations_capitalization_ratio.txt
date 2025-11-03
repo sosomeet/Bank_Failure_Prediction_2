@@ -1,0 +1,6 @@
+# 회귀식 표준화, 절편 없음
+# scenario_var = capitalization_ratio
+
+asset_turnover = +0.1442·leverage_ratio +0.1394·roe -0.0599·capitalization_ratio +0.1313·totaldebt_invcap +0.4397·rect_turn + ε_asset_turnover
+debt_ratio = +0.7070·leverage_ratio +0.1127·roe -0.0306·roa +0.0320·capitalization_ratio -0.3325·rect_turn + ε_debt_ratio
+debt_ratio2 = -0.0967·leverage_ratio -0.1635·asset_liabilities -0.3270·debt_ratio +0.1700·roa +0.9820·capitalization_ratio -0.3610·longtermdebt_invcap +0.5995·totaldebt_invcap + ε_debt_ratio2
